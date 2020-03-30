@@ -7,8 +7,8 @@ import re
 
 locale.setlocale(locale.LC_ALL, 'en_US.UTF8')
 html = requests.get("https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population").text
-soup = HTMLParser(html)
-objs = soup.css("table.wikitable")
+html_data = HTMLParser(html)
+objs = html_data.css("table.wikitable")
 table = objs[1] # Use Second Table
 rows = table.css("tr")
 
