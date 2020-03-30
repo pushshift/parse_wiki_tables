@@ -4,4 +4,5 @@ This is a simple example of parsing data from a Wikipedia table (Top US Cities b
 
 This example is very basic but should give some background on how to parse data for other Wikipedia tables.
 
+You may need to install the selectolax Python module. (pip install selectolax / pip3 install selectolax)
 
